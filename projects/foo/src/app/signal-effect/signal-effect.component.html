@@ -1,0 +1,15 @@
+<p>signal-effect works!</p>
+counter: {{ counter() }} <br>
+double: {{ double() }} <br>
+aValue: {{ aValue() }} <br>
+bValue: {{ bValue() }} <br>
+<!--resultValue: {{ resultValue() }} <br>-->
+<!--result2Value: {{ result2Value() }} <br>-->
+<!--&lt;!&ndash;computedSignalWithError: {{computedSignalWithError()}} <br>&ndash;&gt;-->
+
+<labs-signal-effect-child></labs-signal-effect-child>
+<!--<br>-->
+<button (click)="increase()">Increase</button>
+<button (click)="increaseA()">IncreaseA</button>
+<button (click)="increaseB()">IncreaseB</button>
+<!--<button (click)="increaseResult2Value()">increaseResult2Value</button>-->

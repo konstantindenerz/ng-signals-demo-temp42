@@ -1,0 +1,7 @@
+:host {
+  &.disabled {
+    .disabled-demo {
+      opacity: .38;
+    }
+  }
+}
